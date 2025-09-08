@@ -5,10 +5,10 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "NsAxATyY#No3QUI4Ehg0D6jjWh2v-MYS0x4dC87xNg_u7ZQhwIQ8", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "PRABATH-MD~2RSSDzySnp97HTw", // Add your session id
 PREFIX: process.env.PREFIX || ".",
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94727319036",
-DEV: process.env.DEV || "94727319036",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94776946420",
+DEV: process.env.DEV || "94776946420",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
