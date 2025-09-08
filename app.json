@@ -1,0 +1,168 @@
+{
+  "name": "RASHU-MD",
+  "description": "RASHU-MD Whatsapp bot © ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɴɪᴘᴜɴ ʜᴀʀꜱʜᴀɴᴀ ......",
+  "logo": "https://files.catbox.moe/cpu3eu.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+    "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": ""
+    },  
+    
+    "OWNER_NUMBER": {
+      "description": "Set bot prefix(Set your owner number)",
+      "required": true,
+      "value": "94727319036"
+    },
+    
+    "PREFIX": {
+      "description": "Set bot prefix(#,$,-!,?)",
+      "required": true,
+      "value": "."
+    },
+    
+    "MODE": {
+      "description": "select your bot work type public-private-inbox-group.",
+      "required": true,
+      "value": "public"
+    }, 
+
+    "AUTO_VOICE": {
+      "description": "Make it true if you want bot auto voice.",
+      "required": true,
+      "value": "true"
+    },  
+    
+      "AUTO_REPLY": {
+      "description": "Make it true if you want bot auto reply.",
+      "required": true,
+      "value": "true"
+    },  
+
+    "AUTO_READ_STATUS": {
+      "description": "Make it true if you want bot auto auto_read_status.",
+      "required": true,
+      "value": "true"
+    }, 
+    
+    "AUTO_STATUS_REPLY": {
+      "description": "Statues reply",
+      "required": true,
+      "value": "false"
+    },
+    
+    "STATUS_REPLY_MSG": {
+      "description": "Statues reply msg",
+      "required": true,
+      "value": "*_`AUTO STATUS JUST NOW SEEN BY LARA MD`_*"
+    },
+    
+    "AUTO_STATUS_REACT": {
+      "description": "Make it tru status auto react to any emojis",
+      "required": true,
+      "value": "true"
+    },
+    
+    "FAKE_RECORDING": {
+      "description": "Make it true if you want bot fake record.",
+      "required": true,
+      "value": "true"
+    },
+    
+    "AUTO_TYPING": {
+      "description": "Make it true if you want bot auto typing",
+      "required": true,
+      "value": "false"
+    },
+
+    "AUTO_REACT": {
+      "description": "Make it true if you want bot AutoReact.",
+      "required": true,
+      "value": "false"
+    },
+    
+      "CUSTOME_REACT": {
+      "description": "Make it true if you want bot custome react.",
+      "required": true,
+      "value": "true"
+    },
+    
+      "CUSTOME_REACT_EMOJI": {
+      "description": "Custome react emojis.",
+      "required": true,
+      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
+    },
+    
+    "ANTI_LINK": {
+      "description": "Group link shear not allowed and kick out user",
+      "required": true,
+      "value": "true"
+    },
+    
+    "ANTI_BAD": {
+      "description": "Bad word not allowed",
+      "required": true,
+      "value": "true"
+    },
+    
+    "READ_MESSAGE": {
+      "description": "Auto read new messages",
+      "required": true,
+      "value": "false"
+    },
+    
+    "ALWAYS_ONLINE": {
+      "description": "Make it true if show you are always online it false if show your last seen",
+      "required": true,
+      "value": "false"
+    },
+    
+    "ANTI_DELETE": {
+      "description": "Delete massages show",
+      "required": true,
+      "value": "true"
+    },
+    
+    "ANTI_DELETE_PATH": {
+      "description": "Set anti delete path (inbox/same)",
+      "required": true,
+      "value": "same"
+    },
+    
+    "INBOX_BLOCK": {
+      "description": "Inbox Auto block",
+      "required": true,
+      "value": "false"
+    },
+    
+     "WELCOME": {
+      "description": "Set Group welcome massage",
+      "required": true,
+      "value": "true"
+    },
+    
+     "GOODBYE": {
+      "description": "Set Group goodbye massage",
+      "required": true,
+      "value": "true"
+    },
+    
+     "ADMIN_EVENTS": {
+      "description": "Set Group admin admin events",
+      "required": true,
+      "value": "true"
+    }
+
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
